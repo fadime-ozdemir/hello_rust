@@ -209,3 +209,11 @@ they iterates over different data structure
 Array and slice types such as Vector, String push us, and iter_mut allows us to obtain their values as immutable (iter) or modifiable (iter_mut).
 Iterator adapters (map, filter...)
 These are subcommands used to access, filter, or delete some values in the main collection type on iterators.
+
+HashMaps
+HashMaps store values by key, whereas vectors store data by integer index. Keys in a HashMap can be booleans, integers, strings, or any other type.
+HashSets
+HashSet is a set data type that cannot contain the same values. (collection type)
+
+Regular expressions
+to use regex, you need to install regex package
