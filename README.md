@@ -200,3 +200,6 @@ An enum is a data structure in Rust that defines its different subtypes. Provide
 Traits
 are like Array.map function in JS
 impl trait for struct { return some_func}
+Traits enable us to abstract over behavior that types can share. A trait informs the Rust compiler on the capability that a certain type possesses and may share with other types.
+Traits are similar to interface structures in traditional programming. It is sufficient to simply define the method, its parameters, and return values. As a great advantage, the default method contents can also be defined in the trait.
+Utility traits: Drop, Sized, Clone, Copy, Deref, Default, AsRef are the most used.
