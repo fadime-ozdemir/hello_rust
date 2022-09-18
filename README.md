@@ -182,3 +182,21 @@ Named field structs in Rust are typical C like structure.
 Tuple-like struct is similar to tuple in that the fields are unnamed but with additional functionality.
 Unit-Like structs can be define without any fields. When you need to implement a trait on a type but don't have any data to place in the type itself, unit-like structs might be handy.
 structs can have methods and associate functions. the methods use &self reference while the associate functions do not
+
+Generics
+Generics is the structure that prevents duplication in Rust. A syntax that allows the developer to use generic terms as placeholders for more concrete types to be passed in elsewhere and does not require defining different functions of different types.
+
+Lifetime
+Lifetimes are another kind of generic that ensure references are valid for as long as we need them. To minimize memory usage by reducing unnecessary storage lifetimes are good structs to use.
+
+In Rust, every reference has a lifetime which is the duration for which the reference is valid.
+&'a i32 => 'a : lifetime reference
+
+Monomorphisation : turn generic code into a specific one
+
+Enums
+An enum is a data structure in Rust that defines its different subtypes. Provides the same functionality as a struct, but with fewer code.
+
+Traits
+are like Array.map function in JS
+impl trait for struct { return some_func}
