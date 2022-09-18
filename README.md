@@ -203,3 +203,9 @@ impl trait for struct { return some_func}
 Traits enable us to abstract over behavior that types can share. A trait informs the Rust compiler on the capability that a certain type possesses and may share with other types.
 Traits are similar to interface structures in traditional programming. It is sufficient to simply define the method, its parameters, and return values. As a great advantage, the default method contents can also be defined in the trait.
 Utility traits: Drop, Sized, Clone, Copy, Deref, Default, AsRef are the most used.
+
+Iterators
+they iterates over different data structure
+Array and slice types such as Vector, String push us, and iter_mut allows us to obtain their values as immutable (iter) or modifiable (iter_mut).
+Iterator adapters (map, filter...)
+These are subcommands used to access, filter, or delete some values in the main collection type on iterators.
